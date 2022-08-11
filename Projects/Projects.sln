@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlourAndMild", "FlourAndMil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KindergartenAtCamp", "KindergartenAtCamp\KindergartenAtCamp.csproj", "{F9687903-D6DF-485C-A51E-743E4A835BC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{E4125F9F-7534-4A5E-85C6-54D9834726D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{E4125F9F-7534-4A5E-85C6-54D9834726D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pyramid", "Pyramid\Pyramid.csproj", "{97E0A332-7699-44A6-BA64-90EC7F0732DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{B0800B3B-F729-4417-9AA6-0C4C024EEAB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{E4125F9F-7534-4A5E-85C6-54D9834726D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4125F9F-7534-4A5E-85C6-54D9834726D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4125F9F-7534-4A5E-85C6-54D9834726D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E0A332-7699-44A6-BA64-90EC7F0732DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E0A332-7699-44A6-BA64-90EC7F0732DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E0A332-7699-44A6-BA64-90EC7F0732DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E0A332-7699-44A6-BA64-90EC7F0732DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0800B3B-F729-4417-9AA6-0C4C024EEAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0800B3B-F729-4417-9AA6-0C4C024EEAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0800B3B-F729-4417-9AA6-0C4C024EEAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0800B3B-F729-4417-9AA6-0C4C024EEAB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

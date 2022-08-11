@@ -1,0 +1,44 @@
+﻿<Window x:Name="Calculator" x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="694" Width="756" SizeToContent="WidthAndHeight" Icon="/изтеглен файл.png">
+    <Grid HorizontalAlignment="Left" Margin="10,0,0,17" Width="746">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="696"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="49*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="SevenButton" Content="7" HorizontalAlignment="Left" Height="77" Margin="80,395,0,0" VerticalAlignment="Top" Width="121" Click="SevenButton_Click"/>
+        <TextBox x:Name="DisplayBox" HorizontalAlignment="Left" Height="53" Margin="10,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="653" FontSize="40" TextAlignment="Right" IsReadOnly="True" Text="0"/>
+        <Button x:Name="EightButton" Content="8" HorizontalAlignment="Left" Height="77" Margin="268,395,0,0" VerticalAlignment="Top" Width="105" Click="EightButton_Click"/>
+        <Button x:Name="AddButton" Content="+" Height="77" Margin="583,487,0,0" VerticalAlignment="Top" Click="AddButton_Click" HorizontalAlignment="Left" Width="80" RenderTransformOrigin="0.525,0.41"/>
+        <TextBox x:Name="StatementDisplay" HorizontalAlignment="Left" Height="26" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="653" FontSize="20" BorderThickness="0,0,0,0" FlowDirection="LeftToRight" TextAlignment="Right" IsReadOnly="True"/>
+        <Button x:Name="EqualButton" Content="=" Margin="583,584,0,0" Click="EqualButton_Click" Height="66" VerticalAlignment="Top" HorizontalAlignment="Left" Width="80"/>
+        <Button x:Name="NineButton" Content="9" HorizontalAlignment="Left" Height="77" Margin="432,395,0,0" VerticalAlignment="Top" Width="103" Click="NineButton_Click"/>
+        <Button x:Name="MinusButton" Content="-" Height="77" Margin="583,395,0,0" VerticalAlignment="Top" Click="MinusButton_Click" HorizontalAlignment="Left" Width="80"/>
+        <Button x:Name="FourthButton" Content="4" HorizontalAlignment="Left" Height="77" Margin="80,487,0,0" VerticalAlignment="Top" Width="120" Click="FourthButton_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.057"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.001"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="FifthButton" Content="5" HorizontalAlignment="Left" Height="77" Margin="268,487,0,0" VerticalAlignment="Top" Width="105" Click="FifthButton_Click"/>
+        <Button x:Name="SixthButton" Content="6" HorizontalAlignment="Left" Height="77" Margin="432,487,0,0" VerticalAlignment="Top" Width="103" Click="SixthButton_Click"/>
+        <Button x:Name="FirstButton" Content="1" HorizontalAlignment="Left" Height="66" Margin="80,584,0,0" VerticalAlignment="Top" Width="121" Click="FirstButton_Click"/>
+        <Button x:Name="SecondButton" Content="2" HorizontalAlignment="Left" Height="64" Margin="267,586,0,0" VerticalAlignment="Top" Width="106" Click="SecondButton_Click"/>
+        <Button x:Name="ThirdButton" Content="3" HorizontalAlignment="Left" Height="65" Margin="432,586,0,0" VerticalAlignment="Top" Width="103" Click="ThirdButton_Click"/>
+        <Button x:Name="PoButton_Copy" Content="*" Height="70" Margin="583,0,0,0" VerticalAlignment="Center" Click="PoButton_Click" HorizontalAlignment="Left" Width="80"/>
+        <Button x:Name="DelenoButton" Content="/" Height="70" Margin="268,0,0,0" VerticalAlignment="Center" Click="DelenoButton_Click" HorizontalAlignment="Left" Width="105"/>
+        <Button x:Name="ClearButton" Content="Clear" Height="70" Margin="432,0,0,0" VerticalAlignment="Center" Click="ClearButton_Click" HorizontalAlignment="Left" Width="103"/>
+    </Grid>
+</Window>

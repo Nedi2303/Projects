@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+body{
+    background-image: url(background-image.jpg);
+    background-position: auto;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.Menu{
+    background-color:rgb(214, 175, 67) ;
+    text-align: center;
+    
+} 
+.Menu ul{
+    display: inline-flex;
+    list-style: none;
+}
+.Menu ul li{
+    margin: 10px;
+    padding: 15px;
+    width: 180px;
+}
+.Menu ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.active,.Menu ul li:hover{
+    background: rgb(78, 211, 200);
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+.sub-menu{
+    display: none;   
+}
+.Menu ul li:hover .sub-menu{
+        display: block;
+        position: absolute;
+        background-color:rgb(214, 175, 67) ;
+        margin-top: 15px;
+        margin-left: -15px;       
+}
+.Menu ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    display: block;
+    margin-top: -43px;
+    margin-left: 160px;
+    background-color:rgb(214, 175, 67) ;
+    position: absolute;
+}
+.sub-menu-3{
+    display: none;
+}
+.hover-me:hover .sub-menu-3{
+    display: block;
+    margin-top: -43px;
+    margin-left: 160px;
+    background-color:rgb(214, 175, 67) ;
+    position: absolute;
+    
+}
